@@ -33,4 +33,4 @@ Para ejecutar el entorno de desarrollo de forma local:
 
 1. Clona este repositorio en tu máquina:
    ```bash
-   git clone [https://github.com/MisterJpeeexD/about-me.git](https://github.com/MisterJpeeexD/about-me.git)
+   git clone https://github.com/MisterJpeeexD/about-me.git
