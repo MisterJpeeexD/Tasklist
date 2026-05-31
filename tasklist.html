@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskList v1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TaskList v1.0</h1>
+        <h4>Ingrese su tarea en el menu de abajo. En caso de que requiera completar la tarea, solo haga clic en el boton de completar</h4>
+    </header>
+    <main>
+        <table class="table-container">
+            <tr>
+                <td>
+                    <p class="table-txt">Nombre de la Tarea</p>
+                </td>
+                <td>
+                    <p class="table-txt">Comentario</p>
+                </td>
+                <td rowspan="2" style="vertical-align: bottom; padding-left: 20px;">
+                    <button id="create-btn">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="task-name" class="text-box" placeholder="Nombre">
+                </td>
+                <td>
+                    <input id="task-remark" class="text-box" placeholder="Comentario">
+                </td>
+            </tr>
+        </table>
+        <table id="task-sec">
+            <!-- Task contener -->
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
