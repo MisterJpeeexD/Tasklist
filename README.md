@@ -16,7 +16,6 @@ Aplicación web interactiva para la gestión y priorización de tareas diarias e
 ### ⚠️ Limitación Técnica Actual
 
 > **Nota de Persistencia:** Esta versión (v1.0) opera estrictamente en la memoria volatil del navegador (Runtime de JavaScript). La aplicación **no almacena información de forma permanente**; al recargar o cerrar la pestaña, el listado de tareas se inicializará a su estado por defecto. 
-*Próxima implementación planificada: Integración de la API de `localStorage` para persistencia local de datos.*
 
 ---
 
